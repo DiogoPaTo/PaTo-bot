@@ -13,6 +13,32 @@ body {
   font-size: 12px;
 }
 
+}
+.box h1{
+  color: white;
+  text-transform: right;
+  font-weight: 500;
+
+}
+.box input[type = "submit"]{
+  border:1;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: right;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: gray;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+
+
 /* se a tela tiver pelo menos 400px vai carregar estes estilos */
 @media (min-width: 400px) {
   body {
@@ -25,7 +51,7 @@ body {
   body {
     background-attachment: fixed;
     background-size: cover;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
